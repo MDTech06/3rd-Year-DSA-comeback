@@ -21,7 +21,7 @@ public class Dowhile {
             continue;
         }
        System.out.println("The number is: " + n);
-    }while ();
+    }while (true);
       
 
     }
