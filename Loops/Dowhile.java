@@ -2,6 +2,9 @@ package Loops;
 import java.util.Scanner;
 public class Dowhile {
     
+    /**
+     * @param args
+     */
     public static void main(String args[]) {
     // Scanner sc = new Scanner(System.in);  // code to print the entered number until the last digit is 10
     // do {
