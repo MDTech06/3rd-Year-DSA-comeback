@@ -11,7 +11,7 @@ public class floyds_triangle {
    
     }
     public static void main(String[] args) {
-        floyds_triangle.floyds_triangle(6); // calling the method with 5 rows
+        floyds_triangle.floyds_triangle(6); // calling the method with 6 rows
     }
 }
 
