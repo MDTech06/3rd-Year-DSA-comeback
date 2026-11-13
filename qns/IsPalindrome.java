@@ -6,13 +6,13 @@ public class IsPalindrome {
         int reverse = 0;
 
         while ( palindrome !=0 ){
-            int reminder = palindrome /10 ; 
-            reverse = reverse *10 + reminder;
-            palindrome /= 10;
+            int reminder = palindrome % 10 ; // Get the last digit
+            reverse = reverse *10 + reminder; // Build the reverse number 
+            palindrome /= 10; // Remove the last digit from the original number
     
         }
         if (n == reverse){
-            return true;
+            return true; 
         }
         else{
             return false;
