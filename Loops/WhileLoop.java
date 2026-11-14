@@ -36,5 +36,6 @@ public class WhileLoop {
         i++;
     }
     System.out.print("Sum is: " + sum);
+    sc.close();
 }
 }

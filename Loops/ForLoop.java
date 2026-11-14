@@ -29,5 +29,6 @@ public class ForLoop {
             n = n / 10;
         }
         System.out.println("The reverse of the number is: " + rev);
+        sc.close();
     }
 }

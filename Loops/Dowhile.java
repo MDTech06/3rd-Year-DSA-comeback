@@ -17,16 +17,16 @@ public class Dowhile {
     // } while (true);
 
     Scanner sc = new Scanner(System.in);
-    do{
+    do {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
         if (n % 10 == 0) {
-            continue;
+            break;
         }
-       System.out.println("The number is: " + n);
-    }while (true);
-      
+        System.out.println("The number is: " + n);
+    } while (true);
 
+    sc.close();
     }
 }
 
