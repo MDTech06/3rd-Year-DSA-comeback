@@ -1,4 +1,4 @@
-package 01-Arrays;
+package Arrays;
 
 public class twosum {
     
