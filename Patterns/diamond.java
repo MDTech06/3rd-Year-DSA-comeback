@@ -26,6 +26,6 @@ public class diamond {
         }
     }
     public static void main(String[] args) {
-        diamond.dia(5); // calling the method with 5 rows
+        diamond.dia(10);
     }
 }

@@ -1,4 +1,5 @@
 public class butterfly_pattern {
+
     public static void butterfly(int n){
         // 1st or upper half of butterfly
         for ( int i = 1; i <= n; i++){
