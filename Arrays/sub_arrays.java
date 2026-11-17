@@ -4,7 +4,7 @@ public class sub_arrays {
     public static void printSubArrays(int arr[]){
         int currentSum = 0;
         int maxSum = Integer.MIN_VALUE;
-        int tp = 0;
+        //int tp = 0;
         for (int i = 0; i < arr.length; i++) {
             int start = i;
             for (int j = i; j < arr.length; j++){
