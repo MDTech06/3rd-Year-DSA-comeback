@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class sub_arrays {
     public static void printSubArrays(int arr[]){

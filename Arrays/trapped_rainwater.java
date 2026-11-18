@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class trapped_rainwater {
     public static int trappedRainwater (int height [])

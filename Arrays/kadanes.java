@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class kadanes {
     public static void printmaxsum(int num[]){

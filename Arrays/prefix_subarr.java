@@ -1,5 +1,3 @@
-package Arrays;
-
 public class prefix_subarr {
     public static void printmaxsubarr(int numbers[]){
         int currentSum = 0; 
