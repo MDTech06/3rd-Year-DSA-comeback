@@ -3,20 +3,20 @@ public class bubblesort {
         int n = arr.length;
         int swapCount = 0;
         for (int turn = 0; turn < n - 1; turn++){
-            boolean swapped = false;
+           
             for ( int j = 0; j < n - 1 - turn; j++){
                 if (arr[j] > arr[j + 1]){
                     // swap
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
-                    swapped = true;
                     swapCount++;
                 }
+                if (swapCount == 0){
+                    break;
+                }
             }
-            if (!swapped){
-                break;
-            }
+          
 
         }
         System.out.println("Number of swaps: " + swapCount);
