@@ -20,6 +20,7 @@ public class matrice{
             }
             System.out.println();
         }
+       
         sc.close();
     }
 }
